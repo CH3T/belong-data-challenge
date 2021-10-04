@@ -47,7 +47,7 @@ class CsvAggr:
         
         import s3fs
 
-        s3 = s3fs.S3FileSystem(anon=False, key='AKIAQQWQQYEA4MCBRJXK', secret='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')
+        s3 = s3fs.S3FileSystem(anon=False, key='XXXXXXxxxxxxxxxxx', secret='xxxx/xxx+xxxxxxx+xxxxxxxx')
 
 
         with s3.open('s3://firstpractise/belong-data-engg-challenge/{}'.format(csv),'w') as f:
